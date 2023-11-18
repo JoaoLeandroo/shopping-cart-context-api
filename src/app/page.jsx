@@ -1,7 +1,11 @@
+import UserProvider from './contexts/user'
+
 export default function Home() {
   return (
-    <main>
-      
-    </main>
+    <UserProvider>
+      <main>
+        Página principal
+      </main>
+    </UserProvider>
   )
 }

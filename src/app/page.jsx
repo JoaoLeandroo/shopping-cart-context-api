@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <UserProvider>
       <main className='mt-2 w-full flex items-center justify-center'>
-        <Card/>
+        <Card alt="Bola de Futebol" img="/images/bola.png"/>
       </main>
     </UserProvider>
   )

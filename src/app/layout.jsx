@@ -1,8 +1,8 @@
-import { Poppins } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header/page'
 
-const poppins = Poppins({ subsets: ['latin'], weight: [
+const roboto = Roboto({ subsets: ['latin'], weight: [
   '300',
   '500',
   '900'
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={`${poppins.className} bg-background-center`}>
+      <body className={`${roboto.className} bg-background-center`}>
         <Header/>
         {children}
       </body>

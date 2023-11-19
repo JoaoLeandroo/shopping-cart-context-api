@@ -1,5 +1,3 @@
-
-
 import Link from "next/link"
 import Image from "next/image"
 
@@ -13,7 +11,7 @@ export default function Header() {
             </div>
 
             <div>
-                <input type="text"  className="w-[350px] rounded-md outline-none p-1 focus:border border-solid border-blue-950"/>
+                <input type="text" placeholder="Informe "  className="w-[350px] rounded-md outline-none p-1 focus:border border-solid border-blue-950"/>
             </div>
 
             <div className="relative w-10 h-10 flex items-center justify-center">
